@@ -236,7 +236,7 @@ body .body-feature .natural-process {
 }
 body .body-feature .natural-process:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px #04f70c;
 }
 body .body-feature .natural-process .process {
   margin: 3.5vh 0vh 3.5vh 0vh;
@@ -324,8 +324,8 @@ body .food-cards {
 }
 body .food-cards .card-one {
   background-color: white;
-  width: 50vh;
-  height: 70vh;
+  width: 48vh;
+  height: 66vh;
   position: relative;
   border: 2px solid #04f70c;
   border-radius: 10px;
@@ -334,7 +334,7 @@ body .food-cards .card-one {
 }
 body .food-cards .card-one:hover {
   transform: translateY(-10px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 12px 24px #04f70c;
 }
 body .food-cards .card-one .news,
 body .food-cards .card-one .news-one,
@@ -378,7 +378,7 @@ body .food-cards .card-one .news-38,
 body .food-cards .card-one .news-39,
 body .food-cards .card-one .news-40 {
   width: 100%;
-  height: 50vh;
+  height: 45vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -617,6 +617,19 @@ body .container-vs .green-linevs {
 }
 body .container-vs .orange-linevs {
   background-color: #e74c3c;
+}
+body .K {
+  margin: 10vh;
+  padding: 25px 10vh 25px 10vh;
+  border-radius: 40px;
+  border: none;
+  background-color: #04f70c;
+  color: white;
+  font-size: 18px;
+}
+body .K:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px #04f70c;
 }
 
 * {
