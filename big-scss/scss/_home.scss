@@ -45,7 +45,8 @@ body {
           cursor: pointer;
         }
       }
-      .select{
+
+      .select {
         border: none;
       }
 
@@ -75,11 +76,12 @@ body {
       color: white;
       padding: 20vh 10vh 0vh 20vh;
       border-radius: 10px;
-      transition: all 0.2s ease-in-out;
+      // transition: color 0.5s ease, font-size 0.5s ease;
 
-      &:hover {
-        transform: translateY(-30px);
-      }
+      // &:hover {
+      //   color: #04f70c;
+      //   font-size: 60px;
+      // }
 
     }
 
@@ -686,8 +688,7 @@ body {
       font-size: 18px;
 
       &:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 12px 24px #04f70c;
+        background-color: red;
       }
     }
   }
@@ -712,6 +713,10 @@ body {
       font-size: 15px;
       background-color: red;
       color: white;
+
+      &:hover {
+        background-color: #04f70c;
+      }
     }
   }
 
@@ -865,27 +870,150 @@ body {
   }
 
   .footer {
-    margin-top: 10vh;
-    background-color: #6f94ba;
-    height: 70vh;
+    margin-top: 20vh;
+    background-color: black;
+    height: 50vh;
+    @include flex-row;
+    justify-content: space-evenly;
 
-    .footer-container {
-      @include flex-row;
-      justify-content: space-evenly;
+    .footer-brand {
+      .logos {
+        font-size: 2.5em;
+        color: #04f70c;
+        font-weight: bold;
 
-      .footer-brand {
-        .logos {
-          font-size: 2.5em;
-          color: #04f70c;
-          font-weight: bold;
+        .Bs {
+          color: red;
+        }
+      }
 
-          .Bs {
-            color: red;
+      .brand-description {
+        margin-top: 4vh;
+        color: rgb(163, 158, 158);
+        font-size: 14px;
+      }
+
+      .social-links {
+        margin-top: 6vh;
+
+        a {
+          background-color: black;
+          border: 1.5px solid white;
+          border-radius: 50%;
+          padding: 10px;
+
+          i {
+            color: white;
+          }
+
+          &:hover {
+            background-color: white;
+
+            i {
+              color: black;
+            }
           }
         }
-        .brand-description{
-          margin-top: 5vh;
+      }
+    }
+
+    .footer-section {
+      .section-title {
+        font-size: 1.5em;
+        color: white;
+        margin-bottom: 4vh;
+      }
+
+      .address-content {
+        .address-item {
+          margin: 2vh 2vh 2vh 0vh;
+
+          span {
+            font-size: 14px;
+          }
+
+          i {
+            margin-right: 1vh;
+            color: rgb(163, 158, 158);
+          }
+
+          span {
+            color: rgb(163, 158, 158);
+          }
         }
+      }
+    }
+
+    .footer-sectionv {
+      margin-top: 4.5vh;
+
+      .section-titlev {
+        font-size: 1.5em;
+        margin-bottom: 3vh;
+        color: white;
+      }
+
+      .b-link {
+        margin: 0;
+        padding: 0;
+
+        .terms {
+          margin: 1vh 1vh 1vh 0vh;
+          color: rgb(163, 158, 158);
+          font-size: 14px;
+        }
+      }
+    }
+
+    .footer-sections {
+      margin-bottom: 3vh;
+
+      .section-titles {
+        font-size: 1.5em;
+        color: white;
+        margin-bottom: 3vh;
+      }
+
+      .newsletter-texts {
+        color: rgb(163, 158, 158);
+        margin-bottom: 3vh;
+        font-size: 14px
+      }
+    }
+  }
+
+  .end {
+    @include flex-row;
+    justify-content: space-between;
+    padding: 4vh 10vh 4vh 10vh;
+    background-color: black;
+
+    .site {
+      color: rgb(163, 158, 158);
+      font-size: 12px;
+
+      .I {
+        color: white;
+      }
+    }
+
+    .sites {
+      @include flex-row;
+      justify-content: flex-end;
+      flex-direction: column;
+
+      .I {
+        color: white;
+      }
+
+      .site-one {
+        color: rgb(163, 158, 158);
+        font-size: 12px;
+      }
+
+      .site-ones {
+        color: rgb(163, 158, 158);
+        font-size: 12px;
       }
     }
   }

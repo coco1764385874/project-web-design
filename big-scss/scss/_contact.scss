@@ -1,0 +1,115 @@
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    @include margin-0;
+    background-color: #f0f4f8;
+    height: 1400vh;
+
+    .header {
+        padding: 20px 60px 20px 60px;
+        @include between;
+        position: sticky;
+        z-index: 99;
+        top: 0;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        .logo {
+            font-size: 2.5em;
+            color: #04f70c;
+            font-weight: bold;
+
+            .B {
+                color: red;
+            }
+        }
+
+        .nav {
+            display: inline-block;
+            margin-left: 20px;
+
+            a {
+                color: #333;
+                text-decoration: none;
+                margin: 0 5px;
+                font-size: 1.1em;
+                background-color: white;
+                padding: 8px 20px 8px 20px;
+                border-radius: 10px 0px 10px;
+
+                &:hover {
+                    background-color: #04f70c;
+                    cursor: pointer;
+                }
+            }
+
+            .select {
+                border: none;
+            }
+
+            .A {
+                background-color: rgb(236, 235, 235);
+                padding: 10px 11px 10px 11px;
+                border-radius: 100%;
+                align-items: center;
+                font-size: 18px;
+                margin-right: 10px;
+            }
+
+            span:hover {
+                background-color: #04f70c;
+            }
+        }
+    }
+
+    .content {
+        background: url('/img/1.png') no-repeat center center;
+        background-size: cover;
+        @include font-size;
+
+        .organic {
+            font-size: 70px;
+            font-weight: bold;
+            color: white;
+            padding: 20vh 10vh 0vh 20vh;
+            border-radius: 10px;
+            // transition: color 0.5s ease, font-size 0.5s ease;
+
+            // &:hover {
+            //     color: #04f70c;
+            //     font-size: 60px;
+            // }
+
+        }
+
+        .button {
+            padding: 5vh 10vh 0vh 20vh;
+
+            .button-one {
+                @include button;
+                margin-right: 20px;
+                background-color: #04f70c;
+
+                &:hover {
+                    background-color: rgb(250, 11, 11);
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+
+            .button-two {
+                @include button;
+                background-color: red;
+
+                &:hover {
+                    background-color: #04f70c;
+                    color: #fff;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
