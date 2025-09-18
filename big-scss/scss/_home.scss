@@ -6,7 +6,7 @@ body {
   font-family: Arial, sans-serif;
   @include margin-0;
   background-color: #f0f4f8;
-  height: 10000vh;
+  height: 1400vh;
 
   .header {
     padding: 20px 60px 20px 60px;
@@ -34,7 +34,7 @@ body {
       a {
         color: #333;
         text-decoration: none;
-        margin: 0 15px;
+        margin: 0 5px;
         font-size: 1.1em;
         background-color: white;
         padding: 8px 20px 8px 20px;
@@ -44,6 +44,9 @@ body {
           background-color: #04f70c;
           cursor: pointer;
         }
+      }
+      .select{
+        border: none;
       }
 
       .A {
@@ -671,7 +674,8 @@ body {
   }
 
   .big-button {
-  @include flex-center;
+    @include flex-center;
+
     .K {
       margin: 10vh;
       padding: 18px 5vh 18px 5vh;
@@ -684,6 +688,204 @@ body {
       &:hover {
         transform: translateY(-10px);
         box-shadow: 0 12px 24px #04f70c;
+      }
+    }
+  }
+
+  .visit {
+    background-color: #06c60d;
+    height: 50vh;
+    @include flex-row;
+    justify-content: space-between;
+    padding: 0vh 10vh 0vh 10vh;
+    color: white;
+
+    .visit-our {
+      font-size: 40px;
+      font-weight: bold;
+      margin-bottom: 2vh;
+    }
+
+    .L {
+      padding: 20px 50px 20px 50px;
+      @include border;
+      font-size: 15px;
+      background-color: red;
+      color: white;
+    }
+  }
+
+  .big-our-features {
+    margin: 10vh 0vh 10vh 0vh;
+  }
+
+  .testimonial-container {
+    @include flex-center;
+    @include flex-row;
+
+    .testimonial-card {
+      background-color: white;
+      height: 35vh;
+      width: 60vh;
+      margin-right: 4vh;
+      padding: 1vh 0vh 0vh 6vh;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+      .testimonial-text {
+        margin: 5vh 0vh 0vh 1vh;
+        color: gray;
+
+      }
+
+      .client-info {
+        margin: 5vh 0vh 0vh 1vh;
+        @include flex-row;
+
+        img {
+          height: 55px;
+          margin-right: 3vh;
+          border-radius: 50%;
+        }
+
+        .client-details {
+          h3 {
+            margin-bottom: 1vh;
+          }
+
+          .client-profession {
+            color: gray;
+          }
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 24px #04f70c;
+      }
+    }
+
+  }
+
+  .arrow-container {
+    @include flex-center;
+    gap: 30px;
+    margin-top: 6vh;
+
+    .left-arrow {
+      @include flex-center;
+      @include right-left;
+
+      &:hover {
+        @include style-color;
+      }
+
+    }
+
+    .right-arrow {
+      @include flex-center;
+      @include right-left;
+
+      &:hover {
+        @include style-color;
+      }
+    }
+
+  }
+
+  .big-our-one {
+    margin-top: 10vh;
+  }
+
+  .big-how-growth {
+    @include flex-row;
+    justify-content: center;
+    margin-top: 10vh;
+    gap: 5vh;
+
+    .how-growth {
+      height: 72vh;
+      transition: all 0.3s ease-in-out;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      background-color: rgb(208, 229, 243);
+
+      img {
+        height: 45vh;
+      }
+
+      .how {
+        margin: 4vh 0vh 4vh 4vh;
+      }
+
+      .line {
+        width: 54vh;
+        margin-left: 4vh;
+      }
+
+      .icon-pro {
+        margin-top: 4vh;
+        @include flex-row;
+        @include flex-center;
+
+        .admin-one {
+          @include flex-row;
+          margin-right: 7vh;
+
+          i {
+            margin-right: 1vh;
+            color: #04f70c
+          }
+
+          .admins {
+            color: rgb(89, 82, 82);
+            font-size: 12px
+          }
+        }
+
+        .admin-two {
+          @include flex-row;
+
+          i {
+            margin-right: 1vh;
+            color: #04f70c
+          }
+
+          .admins {
+            color: gray;
+          }
+
+        }
+      }
+
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 24px #04f70c;
+      }
+    }
+  }
+
+  .footer {
+    margin-top: 10vh;
+    background-color: #6f94ba;
+    height: 70vh;
+
+    .footer-container {
+      @include flex-row;
+      justify-content: space-evenly;
+
+      .footer-brand {
+        .logos {
+          font-size: 2.5em;
+          color: #04f70c;
+          font-weight: bold;
+
+          .Bs {
+            color: red;
+          }
+        }
+        .brand-description{
+          margin-top: 5vh;
+        }
       }
     }
   }

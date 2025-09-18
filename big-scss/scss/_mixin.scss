@@ -56,6 +56,24 @@
   color: rgb(91, 88, 88);
 }
 
+@mixin border {
+  border: none;
+  border-radius: 30px;
+}
+
+@mixin right-left {
+  background-color: white;
+  height: 9vh;
+  width: 9vh;
+  border-radius: 50%;
+  border: 2px solid #04f70c;
+  font-size: 30px;
+}
+@mixin style-color {
+  background-color: #04f70c;
+  color: white;
+}
+
 
 
 
