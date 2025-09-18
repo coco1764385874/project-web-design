@@ -6,7 +6,6 @@ body {
   font-family: Arial, sans-serif;
   @include margin-0;
   background-color: #f0f4f8;
-  text-align: center;
   height: 10000vh;
 
   .header {
@@ -71,7 +70,7 @@ body {
       font-size: 70px;
       font-weight: bold;
       color: white;
-      padding: 20vh 110vh 0vh 0vh;
+      padding: 20vh 10vh 0vh 20vh;
       border-radius: 10px;
       transition: all 0.2s ease-in-out;
 
@@ -82,7 +81,7 @@ body {
     }
 
     .button {
-      padding: 7vh 135vh 0vh 0vh;
+      padding: 5vh 10vh 0vh 20vh;
 
       .button-one {
         @include button;
@@ -198,6 +197,8 @@ body {
   .our-feature {
     background: url('/img/3.jpg') no-repeat center center;
     background-size: cover;
+    @include flex-center;
+    flex-direction: column;
 
     .container {
       @include flex-column;
@@ -242,10 +243,12 @@ body {
 
     .natural-process {
       background-color: white;
+      @include flex-center;
+      flex-direction: column;
       height: 63vh;
       width: 60vh;
       border-radius: 10px;
-      padding-top: 10vh;
+      padding-top: 4vh;
       transition: all 0.3s ease-in-out;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
@@ -287,6 +290,10 @@ body {
 
   .our-products {
     .our-features {
+      display: flex;
+      text-align: center;
+      flex-direction: column;
+
       .containers {
         @include flex-column;
         justify-content: center;
@@ -325,6 +332,8 @@ body {
 
     .food {
       margin-top: 5vh;
+      @include flex-center;
+      gap: 2vh;
 
       button {
         height: 7vh;
@@ -430,6 +439,10 @@ body {
           z-index: 1;
         }
 
+      }
+
+      .name-product {
+        text-align: center;
       }
 
       .news {
@@ -657,18 +670,21 @@ body {
     }
   }
 
-  .K {
-    margin: 10vh;
-    padding: 25px 10vh 25px 10vh;
-    border-radius: 40px;
-    border: none;
-    background-color: #04f70c;
-    color: white;
-    font-size: 18px;
+  .big-button {
+  @include flex-center;
+    .K {
+      margin: 10vh;
+      padding: 18px 5vh 18px 5vh;
+      border-radius: 40px;
+      border: none;
+      background-color: #04f70c;
+      color: white;
+      font-size: 18px;
 
-    &:hover {
-      transform: translateY(-10px);
-      box-shadow: 0 12px 24px #04f70c;
+      &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 24px #04f70c;
+      }
     }
   }
 }

@@ -7,7 +7,6 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f0f4f8;
-  text-align: center;
   height: 10000vh;
 }
 body .header {
@@ -67,7 +66,7 @@ body .content .organic {
   font-size: 70px;
   font-weight: bold;
   color: white;
-  padding: 20vh 110vh 0vh 0vh;
+  padding: 20vh 10vh 0vh 20vh;
   border-radius: 10px;
   transition: all 0.2s ease-in-out;
 }
@@ -75,7 +74,7 @@ body .content .organic:hover {
   transform: translateY(-30px);
 }
 body .content .button {
-  padding: 7vh 135vh 0vh 0vh;
+  padding: 5vh 10vh 0vh 20vh;
 }
 body .content .button .button-one {
   padding: 18px 50px 18px 50px;
@@ -185,6 +184,10 @@ body .big-best .best .D:hover {
 body .our-feature {
   background: url("/img/3.jpg") no-repeat center center;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 body .our-feature .container {
   display: flex;
@@ -227,10 +230,14 @@ body .body-feature {
 }
 body .body-feature .natural-process {
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 63vh;
   width: 60vh;
   border-radius: 10px;
-  padding-top: 10vh;
+  padding-top: 4vh;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
@@ -262,6 +269,11 @@ body .body-feature .natural-process .F {
 body .body-feature .natural-process .F:hover {
   background-color: #04f70c;
   cursor: pointer;
+}
+body .our-products .our-features {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
 }
 body .our-products .our-features .containers {
   display: flex;
@@ -297,6 +309,10 @@ body .our-products .our-features .ourss {
 }
 body .our-products .food {
   margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
 }
 body .our-products .food button {
   height: 7vh;
@@ -434,6 +450,9 @@ body .food-cards .card-one .news-40 .new {
   padding: 5px 10px;
   border-radius: 3px;
   z-index: 1;
+}
+body .food-cards .card-one .name-product {
+  text-align: center;
 }
 body .food-cards .card-one .news {
   background-image: url("/img/8.png");
@@ -618,16 +637,21 @@ body .container-vs .green-linevs {
 body .container-vs .orange-linevs {
   background-color: #e74c3c;
 }
-body .K {
+body .big-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .big-button .K {
   margin: 10vh;
-  padding: 25px 10vh 25px 10vh;
+  padding: 18px 5vh 18px 5vh;
   border-radius: 40px;
   border: none;
   background-color: #04f70c;
   color: white;
   font-size: 18px;
 }
-body .K:hover {
+body .big-button .K:hover {
   transform: translateY(-10px);
   box-shadow: 0 12px 24px #04f70c;
 }
