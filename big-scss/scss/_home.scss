@@ -72,9 +72,7 @@ body {
     .nav-container {
       max-width: 1200px;
       margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      @include between;
       padding: 0 20px;
 
       .nav-links {
@@ -221,7 +219,7 @@ body {
       }
 
       .best-three {
-        margin-right: 58vh;
+        margin-right: 26vh;
         margin-top: 4vh;
         @include flex-center;
 
@@ -231,7 +229,7 @@ body {
       }
 
       .best-four {
-        margin: 3vh 61vh 0vh 3px;
+        margin: 3vh 19.2vh 0vh 3px;
         @include flex-center;
 
         i {

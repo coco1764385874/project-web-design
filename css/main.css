@@ -193,7 +193,7 @@ body .big-best .best .best-two {
   font-size: 15px;
 }
 body .big-best .best .best-three {
-  margin-right: 58vh;
+  margin-right: 26vh;
   margin-top: 4vh;
   display: flex;
   justify-content: center;
@@ -205,7 +205,7 @@ body .big-best .best .best-three i {
   font-weight: bold;
 }
 body .big-best .best .best-four {
-  margin: 3vh 61vh 0vh 3px;
+  margin: 3vh 19.2vh 0vh 3px;
   display: flex;
   justify-content: center;
   align-items: center;
