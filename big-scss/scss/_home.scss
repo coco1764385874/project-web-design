@@ -46,7 +46,7 @@ body {
     }
 
     .nav {
-      display: inline-block;
+      // display: inline-block;
       margin-left: 20px;
 
       a {
@@ -55,7 +55,7 @@ body {
         margin: 0 5px;
         font-size: 1.1em;
         background-color: white;
-        padding: 5px 20px 5px 20px;
+        // padding: 5px 20px 5px 20px;
         border-radius: 10px 0px 10px;
 
         &:hover {
@@ -89,13 +89,10 @@ body {
           a {
             text-decoration: none;
             color: #333;
-            padding: 10px 5px;
+            padding: 5px 10px;
             display: block;
           }
 
-          &:hover>a {
-            color: #007bff;
-          }
         }
 
         .dropdown-container {
@@ -445,7 +442,7 @@ body {
       width: 48vh;
       height: 66vh;
       position: relative;
-      border: 2px solid #04f70c;
+      // border: 2px solid #04f70c;
       border-radius: 10px;
       transition: all 0.3s ease-in-out;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
