@@ -651,6 +651,10 @@ body .food-cards .card-one .view-s .view i {
   color: #04f70c;
   margin-right: 10px;
 }
+body .food-cards .card-one .view-s .view i:hover {
+  color: black;
+  cursor: pointer;
+}
 body .container-v {
   display: flex;
   flex-direction: column;
