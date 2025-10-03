@@ -46,7 +46,6 @@ body {
     }
 
     .nav {
-      // display: inline-block;
       margin-left: 20px;
 
       a {
@@ -55,7 +54,6 @@ body {
         margin: 0 5px;
         font-size: 1.1em;
         background-color: white;
-        // padding: 5px 20px 5px 20px;
         border-radius: 10px 0px 10px;
 
         &:hover {
@@ -687,6 +685,7 @@ body {
           i {
             color: #04f70c;
             margin-right: 10px;
+
             &:hover {
               color: black;
               cursor: pointer;
@@ -1230,8 +1229,8 @@ body {
       margin-top: 5vh;
 
       .card-one {
-        width: 100%;
-        height: auto;
+        width: 90%;
+        height: 62vh;
       }
     }
 
@@ -1343,6 +1342,7 @@ body {
       }
     }
 
+
     .visit {
       .visit-our {
         font-size: 28px;
@@ -1369,4 +1369,329 @@ body {
       }
     }
   }
+
+  @media (min-width: 780px) and (max-width: 1000px) {
+    .header {
+      padding: 15px 30px;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+
+      .logo {
+        font-size: 2em;
+      }
+
+      .big-span {
+        margin-left: auto;
+      }
+
+      .nav-container {
+        padding: 0 10px;
+
+        .nav-links {
+          flex-direction: row;
+          gap: 10px;
+
+          li {
+            margin: 0 10px;
+
+            .dropdown-container {
+              .dropdown {
+                min-width: 120px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .content {
+      .organic {
+        font-size: 50px;
+        padding: 15vh 5vh 0 10vh;
+      }
+
+      .button {
+        padding: 5vh 5vh 0 10vh;
+        flex-direction: row;
+        gap: 15px;
+
+        .button-one,
+        .button-two {
+          width: 150px;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .big-best {
+      flex-direction: row;
+      padding: 15vh 3vh;
+      align-items: center;
+
+      .C {
+        img {
+          width: 50vh;
+          height: auto;
+        }
+      }
+
+      .best {
+        margin-left: 20px;
+
+        .best-one,
+        .best-five {
+          font-size: 35px;
+          margin: 3vh 10vh 1vh 0;
+        }
+
+        .best-two,
+        .best-serven,
+        .best-eight {
+          margin-right: 5vh;
+          font-size: 14px;
+        }
+
+        .best-three,
+        .best-four {
+          margin-right: 5vh;
+          font-size: 14px;
+        }
+
+        .D {
+          width: 25vh;
+          height: 8vh;
+          margin: 3vh 0 0 1vh;
+        }
+      }
+    }
+
+    .body-feature {
+      flex-direction: row;
+      flex-wrap: wrap;
+      padding: 6vh 5vh;
+      justify-content: center;
+
+      .natural-process {
+        width: 45%;
+        height: auto;
+        padding: 15px;
+      }
+    }
+
+    .our-products {
+      .food {
+        flex-direction: row;
+        gap: 15px;
+
+        button,
+        .V {
+          width: 15vh;
+          font-size: 14px;
+        }
+      }
+    }
+
+    .food-cards {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 8vh;
+
+      .card-one {
+        width: 40%;
+        height: auto;
+        margin-bottom: 20px;
+      }
+    }
+
+    .big-button {
+      .K {
+        margin: 8vh;
+        padding: 15px 4vh;
+        font-size: 16px;
+      }
+    }
+
+    .visit {
+      height: auto;
+      padding: 5vh 8vh;
+      flex-direction: row;
+      align-items: center;
+
+      .visit-our {
+        font-size: 32px;
+      }
+
+      .visit-ours {
+        font-size: 14px;
+      }
+
+      .L {
+        padding: 15px 40px;
+        font-size: 14px;
+      }
+    }
+
+    .testimonial-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .testimonial-card {
+        width: 45%;
+        height: auto;
+        margin-right: 2vh;
+        margin-bottom: 20px;
+        padding: 1vh 2vh;
+      }
+    }
+
+    .big-how-growth {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 3vh;
+
+      .how-growth {
+        width: 45%;
+        height: auto;
+
+        .line {
+          width: 100%;
+        }
+      }
+    }
+
+    .footer {
+      height: auto;
+      padding: 20px;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+
+      .footer-brand,
+      .footer-section,
+      .footer-sectionv,
+      .footer-sections {
+        width: 45%;
+        margin-bottom: 20px;
+      }
+
+      .footer-brand {
+        .logos {
+          font-size: 2em;
+        }
+      }
+
+      .footer-section {
+        .section-title {
+          font-size: 1.3em;
+        }
+      }
+
+
+      .footer-sectionv {
+        .section-titlev {
+          font-size: 1.3em;
+        }
+      }
+
+      .footer-sections {
+        .section-titles {
+          font-size: 1.3em;
+        }
+      }
+    }
+
+    .end {
+      flex-direction: row;
+      padding: 3vh 5vh;
+
+      .sites {
+        flex-direction: row;
+        gap: 20px;
+      }
+    }
+  }
+
+  @media (min-width: 1000px) and (max-width: 2000px) {
+    .food-cards {
+      .card-one {
+        width: 23%;
+        height: 65vh;
+      }
+    }
+
+    .testimonial-container {
+      margin-left: 3vh;
+    }
+
+    .big-how-growth {
+      margin-left: 0.5vh;
+      gap: 2vh;
+
+      .how-growth {
+        width: 31%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 820px) and (max-width: 900px) {
+    .food-cards {
+      .card-one {
+        height: 60vh;
+        width: 38vh;
+      }
+    }
+
+    .testimonial-container {
+      margin-left: 3vh;
+    }
+
+    .big-how-growth {
+      margin-left: 0.5vh;
+      gap: 2vh;
+
+      .how-growth {
+        width: 31%;
+        height: 42vh;
+
+        img {
+          width: 100%;
+          height: 20vh;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 800px) and (max-width: 815px) {
+    .food-cards {
+      .card-one {
+        height: 60vh;
+        width: 31vh;
+      }
+
+    }
+
+    .big-how-growth {
+      margin-left: 0.5vh;
+      gap: 2vh;
+
+      .how-growth {
+        width: 31%;
+        height: 42vh;
+
+        img {
+          width: 100%;
+          height: 20vh;
+        }
+      }
+    }
+  }
+
 }
