@@ -54,6 +54,7 @@
 @mixin color-grey {
   margin: 1vh 0vh 1vh 0vh;
   color: rgb(91, 88, 88);
+  font-size: 13px;
 }
 
 @mixin border {

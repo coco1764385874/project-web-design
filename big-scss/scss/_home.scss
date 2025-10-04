@@ -171,7 +171,7 @@ body {
   }
 
   .big-best {
-    font-family: Arial, Helvetica, sans-serif;
+   font-family: Arial, sans-serif;
     display: flex;
     flex-direction: row;
     padding: 20vh 5vh 20vh 25vh;
@@ -194,11 +194,13 @@ body {
       display: flex;
       flex-direction: column;
       margin-left: 40px;
+      color: rgb(104, 101, 101);
 
       .best-one {
         margin: 6vh 20vh 2vh 0vh;
         font-size: 45px;
         font-weight: bold;
+        color: black;
       }
 
       .best-two {
@@ -229,6 +231,7 @@ body {
         margin: 0vh 30vh 5vh 0vh;
         font-size: 45px;
         font-weight: bold;
+        color: black;
       }
 
       .best-serven {
@@ -289,27 +292,28 @@ body {
 
     .our {
       margin: 3vh;
-      font-size: 50px;
+      font-size: 40px;
       font-weight: bold;
     }
 
     .ours {
       margin: 5px 0px 5px 0px;
       color: rgb(101, 99, 99);
+      font-size: 13px
     }
   }
 
   .body-feature {
     @include flex-row;
     gap: 40px;
-    padding: 8vh 13vh 8vh 13vh;
+    padding: 8vh 13vh 8vh 28vh;
 
     .natural-process {
       background-color: white;
       @include flex-center;
       flex-direction: column;
-      height: 63vh;
-      width: 60vh;
+      height: 52vh;
+      width: 45vh;
       border-radius: 10px;
       padding-top: 4vh;
       transition: all 0.3s ease-in-out;
@@ -323,7 +327,7 @@ body {
 
       .process {
         margin: 3.5vh 0vh 3.5vh 0vh;
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
       }
 
@@ -333,6 +337,7 @@ body {
 
       .process-one {
         @include color-grey;
+        
       }
 
       .F {
@@ -390,6 +395,7 @@ body {
       .ourss {
         margin: 5px 0px 5px 0px;
         color: rgb(101, 99, 99);
+        font-size: 13px;
       }
     }
 
@@ -422,6 +428,7 @@ body {
   }
 
   .food-cards {
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -429,10 +436,9 @@ body {
 
     .card-one {
       background-color: white;
-      width: 48vh;
-      height: 66vh;
+      width: 40vh;
+      height: 60vh;
       position: relative;
-      // border: 2px solid #04f70c;
       border-radius: 10px;
       transition: all 0.3s ease-in-out;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -484,7 +490,7 @@ body {
       .news-39,
       .news-40 {
         width: 100%;
-        height: 45vh;
+        height: 39vh;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -506,6 +512,7 @@ body {
 
       .name-product {
         text-align: center;
+        font-size: 10px;
       }
 
       .news {
@@ -666,7 +673,7 @@ body {
           color: rgb(95, 91, 91);
           font-size: 14px;
           border: 1px solid gray;
-          padding: 10px;
+          padding: 6px;
           border-radius: 5px;
 
           &:hover {
@@ -1610,8 +1617,8 @@ body {
   @media (min-width: 1000px) and (max-width: 2000px) {
     .food-cards {
       .card-one {
-        width: 23%;
-        height: 65vh;
+        width: 20%;
+        height: 58vh;
       }
     }
 

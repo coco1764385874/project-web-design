@@ -158,7 +158,7 @@ body .content .button .button-two:hover {
   cursor: pointer;
 }
 body .big-best {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   flex-direction: row;
   padding: 20vh 5vh 20vh 25vh;
@@ -175,11 +175,13 @@ body .big-best .best {
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+  color: rgb(104, 101, 101);
 }
 body .big-best .best .best-one {
   margin: 6vh 20vh 2vh 0vh;
   font-size: 45px;
   font-weight: bold;
+  color: black;
 }
 body .big-best .best .best-two {
   margin-right: 17vh;
@@ -212,6 +214,7 @@ body .big-best .best .best-five {
   margin: 0vh 30vh 5vh 0vh;
   font-size: 45px;
   font-weight: bold;
+  color: black;
 }
 body .big-best .best .best-serven {
   margin-right: 15.5vh;
@@ -269,19 +272,20 @@ body .our-feature .container .orange-line {
 }
 body .our-feature .our {
   margin: 3vh;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
 }
 body .our-feature .ours {
   margin: 5px 0px 5px 0px;
   color: rgb(101, 99, 99);
+  font-size: 13px;
 }
 body .body-feature {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: 40px;
-  padding: 8vh 13vh 8vh 13vh;
+  padding: 8vh 13vh 8vh 28vh;
 }
 body .body-feature .natural-process {
   background-color: white;
@@ -289,8 +293,8 @@ body .body-feature .natural-process {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 63vh;
-  width: 60vh;
+  height: 52vh;
+  width: 45vh;
   border-radius: 10px;
   padding-top: 4vh;
   transition: all 0.3s ease-in-out;
@@ -302,16 +306,18 @@ body .body-feature .natural-process:hover {
 }
 body .body-feature .natural-process .process {
   margin: 3.5vh 0vh 3.5vh 0vh;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
 }
 body .body-feature .natural-process .process-ones {
   margin: 1vh 0vh 1vh 0vh;
   color: rgb(91, 88, 88);
+  font-size: 13px;
 }
 body .body-feature .natural-process .process-one {
   margin: 1vh 0vh 1vh 0vh;
   color: rgb(91, 88, 88);
+  font-size: 13px;
 }
 body .body-feature .natural-process .F {
   height: 8vh;
@@ -361,6 +367,7 @@ body .our-products .our-features .ours {
 body .our-products .our-features .ourss {
   margin: 5px 0px 5px 0px;
   color: rgb(101, 99, 99);
+  font-size: 13px;
 }
 body .our-products .food {
   margin-top: 5vh;
@@ -388,6 +395,7 @@ body .our-products .food .V {
   background-color: #04f70c;
 }
 body .food-cards {
+  font-family: Arial, sans-serif;
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -395,8 +403,8 @@ body .food-cards {
 }
 body .food-cards .card-one {
   background-color: white;
-  width: 48vh;
-  height: 66vh;
+  width: 40vh;
+  height: 60vh;
   position: relative;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
@@ -448,7 +456,7 @@ body .food-cards .card-one .news-38,
 body .food-cards .card-one .news-39,
 body .food-cards .card-one .news-40 {
   width: 100%;
-  height: 45vh;
+  height: 39vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -507,6 +515,7 @@ body .food-cards .card-one .news-40 .new {
 }
 body .food-cards .card-one .name-product {
   text-align: center;
+  font-size: 10px;
 }
 body .food-cards .card-one .news {
   background-image: url("/img/8.png");
@@ -632,7 +641,7 @@ body .food-cards .card-one .view-s .view {
   color: rgb(95, 91, 91);
   font-size: 14px;
   border: 1px solid gray;
-  padding: 10px;
+  padding: 6px;
   border-radius: 5px;
 }
 body .food-cards .card-one .view-s .view:hover {
@@ -1395,8 +1404,8 @@ body .end .sites .site-ones {
 }
 @media (min-width: 1000px) and (max-width: 2000px) {
   body .food-cards .card-one {
-    width: 23%;
-    height: 65vh;
+    width: 20%;
+    height: 58vh;
   }
   body .testimonial-container {
     margin-left: 3vh;
