@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+
     .content-k {
         background: url('/img-one/8.png') no-repeat center center;
         background-size: cover;
@@ -19,16 +20,18 @@ body {
             color: white;
         }
     }
-    .load{
+
+    .load {
         background-color: #04f70c;
         @include border;
         padding: 13px 28px 13px 28px;
         margin: 5vh 0vh 0vh 95vh;
         color: white;
         font-size: 15px;
+
         &:hover {
-          background-color: rgb(250, 11, 11);
-          cursor: pointer;
+            background-color: rgb(250, 11, 11);
+            cursor: pointer;
         }
     }
 }

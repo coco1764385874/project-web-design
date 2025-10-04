@@ -71,12 +71,13 @@ body {
           color: #333;
           padding: 5px 10px;
           display: block;
+
           &:hover {
-          background-color: #04f70c;
-          color: #fff;
-          border-radius: 10px 0px 10px;
-          cursor: pointer;
-        }
+            background-color: #04f70c;
+            color: #fff;
+            border-radius: 10px 0px 10px;
+            cursor: pointer;
+          }
         }
       }
 
@@ -171,7 +172,7 @@ body {
   }
 
   .big-best {
-   font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: row;
     padding: 20vh 5vh 20vh 25vh;
@@ -337,7 +338,7 @@ body {
 
       .process-one {
         @include color-grey;
-        
+
       }
 
       .F {
