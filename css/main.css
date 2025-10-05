@@ -838,16 +838,17 @@ body .big-how-growth {
   align-items: center;
   justify-content: center;
   margin-top: 10vh;
-  gap: 5vh;
+  gap: 10vh;
 }
 body .big-how-growth .how-growth {
-  height: 72vh;
+  height: 70vh;
+  width: 50%;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: rgb(208, 229, 243);
 }
 body .big-how-growth .how-growth img {
-  height: 45vh;
+  height: 40vh;
 }
 body .big-how-growth .how-growth .how {
   margin: 4vh 0vh 4vh 4vh;
